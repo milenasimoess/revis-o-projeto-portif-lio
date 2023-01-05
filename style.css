@@ -223,7 +223,7 @@ html body .section-about-time-tag { /* Just to add selector priority */
 
 .section-projects-cards-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 
@@ -285,5 +285,39 @@ html body .section-about-time-tag { /* Just to add selector priority */
 .project-card-links a img {
     margin-right: 10px;
 }
+
+/* ================== Contact (contact.html) ================== */
+.section-contact {
+    font-family: 'Poppins', sans-serif;
+    /* 100vh - tamanho header */
+    min-height: calc(100vh - 400px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.section-contact-me h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    color: #42446e;
+    margin: 15px 0;
+}
+
+.section-contact p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    background-image: linear-gradient(to right, #fcac00, #ff3401,  #ffaf04, #fcf400);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
 
 
